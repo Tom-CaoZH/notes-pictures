@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T13:51:06.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="Z7f9jH8M2KQocHQmlXK8" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T13:55:03.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="czGY-OEO7QiA1zQ_7jw5" version="20.2.3" type="github">
   <diagram id="Nnkzr_iVhjTUIbB_UHhu" name="Page-1">
     <mxGraphModel dx="990" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8LMAYxeA73uBc3rbhENb-3" value="优化类问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry y="40" width="290" height="30" as="geometry" />
+          <mxGeometry x="20" y="160" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8LMAYxeA73uBc3rbhENb-4" value="整数(0-1)优化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="20" y="370" width="120" height="60" as="geometry" />
@@ -30,6 +30,33 @@
         </mxCell>
         <mxCell id="PPRj8Q2nW910NJN9wJXk-3" value="总览:基于matlab" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="30" y="260" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-4" value="评价类问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-5" value="层次分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-6" value="灰色关联" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-7" value="TOPSIS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-8" value="主成分分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-9" value="TODO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="670" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-10" value="预测类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1280" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-11" value="灰色预测" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPRj8Q2nW910NJN9wJXk-12" value="时间序列" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
