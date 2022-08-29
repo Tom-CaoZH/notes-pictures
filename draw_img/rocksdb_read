@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T11:49:53.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63" etag="VMVWqegrghjGWlxofwNP" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T12:12:54.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63" etag="2LrvC_Ja751Tf8YesqCC" version="20.2.7" type="github">
   <diagram id="e0wXqUqs4hQ1mYkYkBNp" name="Page-1">
-    <mxGraphModel dx="1817" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1992" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,10 +230,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="chjy7w7_0xYvEnHt_ORk-95" value="TableReader" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-396.5" y="1560" width="120" height="60" as="geometry" />
+          <mxGeometry x="-413" y="2350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="chjy7w7_0xYvEnHt_ORk-96" value="BlockBasedTable" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-210" y="1560" width="190" height="60" as="geometry" />
+          <mxGeometry x="-226.5" y="2350" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="chjy7w7_0xYvEnHt_ORk-99" value="FdWithKeyRange :&lt;br&gt;small,biggest&lt;br&gt;identity" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-120" y="470" width="177.5" height="115" as="geometry" />
@@ -252,6 +252,42 @@
         </mxCell>
         <mxCell id="1Zt9mVxOZGHlF-W77akp-8" value="add a member variable&lt;br&gt;to get_content to&amp;nbsp;&lt;br&gt;temporarily contain the&amp;nbsp;&lt;br&gt;data(transfer the data)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="310" y="450" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Bloom_filter&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="1530" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BlockBasedTable::Get&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="1700" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#FF3333;strokeColor=#FF3333;" edge="1" parent="1" source="1Zt9mVxOZGHlF-W77akp-13" target="1Zt9mVxOZGHlF-W77akp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-13" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The interface at the upper level&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-15" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;IndexIterator&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="1700" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="1Zt9mVxOZGHlF-W77akp-16" target="1Zt9mVxOZGHlF-W77akp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-16" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DataBlockIterator&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="1900" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="1Zt9mVxOZGHlF-W77akp-17" target="1Zt9mVxOZGHlF-W77akp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;RetrieveBlock&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="2000" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="1Zt9mVxOZGHlF-W77akp-20" target="1Zt9mVxOZGHlF-W77akp-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;MayBeReadBlock&lt;br&gt;AndLoadToCache&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="2110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zt9mVxOZGHlF-W77akp-22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BlockFetcher&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="2220" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
