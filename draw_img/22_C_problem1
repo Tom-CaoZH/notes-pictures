@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T01:30:43.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" version="20.3.0" etag="YIXiBhCFxnfgnycTGDUJ" type="github"><diagram id="bn4JRX8kVM4OBfLtQBmV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-16T02:00:06.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="Op9f_zSVV68bSZDrQ5VS" version="20.3.0" type="github">
+  <diagram id="bn4JRX8kVM4OBfLtQBmV" name="Page-1">
+    <mxGraphModel dx="1414" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RBiZf3bmCZ0csu8Yd6ZK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="RBiZf3bmCZ0csu8Yd6ZK-2" target="RBiZf3bmCZ0csu8Yd6ZK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBiZf3bmCZ0csu8Yd6ZK-2" value="数据整理及赋值" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBiZf3bmCZ0csu8Yd6ZK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="RBiZf3bmCZ0csu8Yd6ZK-3" target="RBiZf3bmCZ0csu8Yd6ZK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBiZf3bmCZ0csu8Yd6ZK-3" value="使用Spearman相关系数进行相关性分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBiZf3bmCZ0csu8Yd6ZK-5" value="使用卡方检验做差异性分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="350" width="450" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
