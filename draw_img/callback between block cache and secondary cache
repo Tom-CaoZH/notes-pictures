@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-11-12T12:38:47.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="BrcNbHjm23leR0nUYdhu" type="github"><diagram id="ZLp0fAVd94TrUEwmvBeE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-12T12:46:58.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Nb-tw-CJqvSXMB0dic2G" version="20.5.3" type="github">
+  <diagram id="ZLp0fAVd94TrUEwmvBeE" name="Page-1">
+    <mxGraphModel dx="1221" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-1" target="HSQS2j7tlNH7b7C0thjH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;InsertItem&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-2" target="HSQS2j7tlNH7b7C0thjH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Insert&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-4" target="HSQS2j7tlNH7b7C0thjH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Upper Func&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-7" value="Block Cache&lt;br&gt;Shard" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-9" value="HashTable" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="550" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-10" value="LRUList" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-11" target="HSQS2j7tlNH7b7C0thjH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Promote&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-12" target="HSQS2j7tlNH7b7C0thjH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-12" target="HSQS2j7tlNH7b7C0thjH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-12" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;LookUp&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="690" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-14" value="Secondary Cache&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="220" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
