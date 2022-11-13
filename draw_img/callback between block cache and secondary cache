@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-12T12:59:36.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="g-IVR9WmM0xYJnr21K1x" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-13T06:39:16.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9aWSz8ubEVfTqlPnz1FN" version="20.5.3" type="github">
   <diagram id="ZLp0fAVd94TrUEwmvBeE" name="Page-1">
-    <mxGraphModel dx="1483" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,10 +19,13 @@
         <mxCell id="HSQS2j7tlNH7b7C0thjH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-4" target="HSQS2j7tlNH7b7C0thjH-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HSQS2j7tlNH7b7C0thjH-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Upper Func&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="150" width="170" height="70" as="geometry" />
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Upper Func&lt;br&gt;(eg.&lt;font color=&quot;#ff3333&quot;&gt;PutDataBlockToCache&lt;/font&gt;)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HSQS2j7tlNH7b7C0thjH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#FF0000;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-7" target="HSQS2j7tlNH7b7C0thjH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF0000;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-7" target="HSQS2j7tlNH7b7C0thjH-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HSQS2j7tlNH7b7C0thjH-7" value="Block Cache&lt;br&gt;Shard" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
@@ -79,6 +82,27 @@
         </mxCell>
         <mxCell id="HSQS2j7tlNH7b7C0thjH-38" value="1. SizeCallBack&lt;br&gt;2. SaveToCallBack&lt;br&gt;3. DeleterFn" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="737.5" y="949" width="245" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-39" value="&lt;font color=&quot;#000000&quot;&gt;In the current design, we only can insert into block&amp;nbsp;&lt;br&gt;cache and if it is full , it will insert the evicted block&lt;br&gt;to secondary cache.This is what we have to change.What we want is we can insert the block which directly to secondary cache. The current design, you may can deserve.&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="50" width="600" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-41" value="&lt;font color=&quot;#ff0000&quot;&gt;If you need this parameter such as size and so on , why not just pass them as a parameter of the function, why use callback function&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="960" y="760" width="330" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF0000;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-42" target="HSQS2j7tlNH7b7C0thjH-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-42" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Upper Func&lt;br&gt;(eg.&lt;font color=&quot;#ff0000&quot;&gt;Get&lt;/font&gt;&lt;font color=&quot;#ff3333&quot;&gt;DataBlockFromCache&lt;/font&gt;)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="150" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF0000;" edge="1" parent="1" source="HSQS2j7tlNH7b7C0thjH-43" target="HSQS2j7tlNH7b7C0thjH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-43" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Lookup&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="260" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HSQS2j7tlNH7b7C0thjH-47" value="Miss" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="590" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
