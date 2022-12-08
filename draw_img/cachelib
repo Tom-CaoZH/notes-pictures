@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T08:11:46.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="ysvnu5c4DvaSaAGcaxhj" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-08T11:14:20.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="V7YgnqrybKSLA89M7D8Y" type="github">
   <diagram id="16O-XiHXDkHhGWutPiEO" name="Page-1">
     <mxGraphModel dx="1038" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="_Pj287PNopS_MzDamHz2-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Navy&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="115" y="300" width="610" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="_Pj287PNopS_MzDamHz2-3" value="NvmCache" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="_Pj287PNopS_MzDamHz2-3" value="Driver &amp;amp; NvmCache" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="192.5" y="240" width="455" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_Pj287PNopS_MzDamHz2-4" value="CompactCache" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
@@ -48,6 +48,21 @@
         </mxCell>
         <mxCell id="_Pj287PNopS_MzDamHz2-19" value="Slab" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="350" y="-130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Pj287PNopS_MzDamHz2-20" value="Secondary_cache -&amp;gt; Insert" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="125" y="770" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Pj287PNopS_MzDamHz2-21" value="Secondary_cache -&amp;gt; lookup" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="125" y="880" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Pj287PNopS_MzDamHz2-22" value="Secondary_cache -&amp;gt; erase" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="125" y="990" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Pj287PNopS_MzDamHz2-25" value="New Secondary_cache" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1100" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_Pj287PNopS_MzDamHz2-26" value="Cachelib Server&lt;br&gt;(only one process)" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="330" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
