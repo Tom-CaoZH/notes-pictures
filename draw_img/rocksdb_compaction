@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T16:56:53.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="wJDJyqcC8mE3aDK4Wi7Q" type="github"><diagram id="PKNCepOU1edum2zBGg3j">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-12T17:05:29.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="XsFKCPqiuvazrS5ZnIIH" type="github">
+  <diagram id="LkpomzvOYpr-9InWbIah" name="Page-1">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lFmOIjaF7XxzOQiynbHr-1" target="lFmOIjaF7XxzOQiynbHr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-1" value="&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;BackgroundCompaction&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lFmOIjaF7XxzOQiynbHr-3" target="lFmOIjaF7XxzOQiynbHr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-3" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif&quot; color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 16px; font-variant-ligatures: no-common-ligatures; background-color: rgb(255, 255, 255);&quot;&gt;choose a compaction cf from queue&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lFmOIjaF7XxzOQiynbHr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-5" value="&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif&quot; color=&quot;#4d4d4d&quot;&gt;&lt;span style=&quot;font-size: 16px; font-variant-ligatures: no-common-ligatures; background-color: rgb(255, 255, 255);&quot;&gt;choose target sst files by score&lt;br&gt;Stored in Compaction struct&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="lFmOIjaF7XxzOQiynbHr-9" target="lFmOIjaF7XxzOQiynbHr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CompactionFile&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lFmOIjaF7XxzOQiynbHr-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;FileMetaData&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
