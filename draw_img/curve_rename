@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T16:31:51.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.15" etag="JLkDD7j_lGzcCSsRjExR" type="github"><diagram name="Page-1" id="-1KNmjJq34Ix_27I5PAe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-08T16:40:10.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="i2q0jqigB_MwAFUoMW4Z" version="20.8.15" type="github">
+  <diagram name="Page-1" id="-1KNmjJq34Ix_27I5PAe">
+    <mxGraphModel dx="1050" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5hK2jeyHvjVMG2ULnNi--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" edge="1" parent="1" source="5hK2jeyHvjVMG2ULnNi--1" target="5hK2jeyHvjVMG2ULnNi--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hK2jeyHvjVMG2ULnNi--1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;FuseOpRename&lt;br&gt;(curve_fuse_op.cpp)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5hK2jeyHvjVMG2ULnNi--2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;FuseClient::FuseOpRename&lt;br&gt;(fuse_client.cpp)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5hK2jeyHvjVMG2ULnNi--6" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;RenameOperator&lt;br&gt;(invoked in FuseOpRename)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="400" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
